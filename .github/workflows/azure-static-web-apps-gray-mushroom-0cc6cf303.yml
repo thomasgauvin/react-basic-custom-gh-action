@@ -49,7 +49,7 @@ jobs:
           AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GRAY_MUSHROOM_0CC6CF303 }}
           DEPLOYMENT_ACTION: upload
           ACTION: upload
-          SKIP_APP_BUILD: true
+          SKIP_APP_BUILD: false
           SKIP_API_BUILD: true
           APP_LOCATION: / # swa: SWA_CLI_APP_LOCATION
           PRODUCTION_BRANCH: main
